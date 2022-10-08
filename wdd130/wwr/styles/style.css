@@ -3,6 +3,10 @@
     margin: 0 auto;
 }
 
+#hero-box img{
+    width: 100%;
+}
+
 #hero-msg h1,#hero-msg h4, #hero-msg .button-box {
     text-align: center;
 }
