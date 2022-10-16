@@ -3,8 +3,79 @@
     margin: 0 auto;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Montserrat&display=swap');
+
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    color: black;
+}
+
+.msg {
+    background-color: #000b6a;
+    line-height: 1.5em;
+  }
+
+
+  .book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+
+  .book, .join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+}
+
+.home-title  { margin-top: 10px;}
+.book, .join  {margin-top: 50px;}
+.rivers-card, .camping-card, .rapids-card   {margin: 200px 0;}
+footer  { margin-top: 200px;}
+
 #hero-box img{
     width: 100%;
+}
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+           
+
+#logo_link {padding-top: 5px;}
+nav a  { padding: 35px;}
+.book, .join   {padding: 15px 30px;}
+.icon  { padding-top: 10px;}
+.msg  {padding: 35px;}
+.msg p   {padding-bottom: 15px;}
+footer   {padding: 25px 50px;}
+footer .social img   {padding-top: 15px;}
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 
 #hero-img{
@@ -71,15 +142,15 @@ nav a:hover{
 }
 
 .home-title{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 h4{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .book, .join{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 .book:hover, .join:hover{
